@@ -10,6 +10,7 @@ TVIP TMS Channel Check
 
 > [!WARNING]
 > Проект проверяет только те каналы, которые включены (enabled = true).
+> так же, программа работает на API ADMIN, а не API PROVIDER
 
 ## Установка
 
