@@ -41,7 +41,7 @@ def check_channels(channels):
             else:
                 logger.warning(f"URL отсутствует для канала: {channel_name}")
 
-    logger.success(f'Рабочих каналов: {channel_work}. Ошибка в канале: {channel_died}')
+    logger.success(f'Рабочих каналов: {channel_work}. Ошибок в канале: {channel_died}')
 
 if __name__ == "__main__":
     tms_link = input('Введите URL TMS: ')
